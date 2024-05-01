@@ -1,0 +1,23 @@
+[
+  {
+    "index": 0,
+    "name": "product-preview-card-component-main",
+    "link": "product-preview-card-component-main/index.html",
+    "img": "product-preview-card-component-main/design/desktop-preview.jpg",
+    "language": "<p class='html'>HTML5</p><p class='css'>CSS3</p>"
+},
+{
+    "index": 1,
+    "name": "recipe-page-main",
+    "link": "recipe-page-main/index.html",
+    "img": "recipe-page-main/design/desktop-preview.jpg",
+    "language": "<p class='html'>HTML5</p><p class='css'>CSS3</p>"
+},
+{
+    "index": 2,
+    "name": "social-links-profile-main",
+    "link": "social-links-profile-main/index.html",
+    "img": "social-links-profile-main/design/desktop-preview.jpg",
+    "language": "<p class='html'>HTML5</p><p class='css'>CSS3</p>"
+  }
+]

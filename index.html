@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FrontEnd Challenge</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main">
+        <h1 class="title">All Challenges</h1>
+        <div class="card-section">
+            <div class="card">
+                <img src="social-links-profile-main/design/desktop-preview.jpg" alt="" srcset="">
+                <div class="language">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script>
+        fetch("./card.json")
+            .then(response => response.json())
+            .then(cardData => {
+                let cards = ''
+                for (let card of cardData) {
+                    cards += ` <a href="${card.link}" class="card">
+                <img src="${card.img}" alt="" srcset="">
+                <div class="language">${card.language}
+                </div>
+                <h1>${card.name}</h1>
+            </a>`
+                }
+                document.querySelector(".card-section").innerHTML = cards;
+            })
+            .catch(error => {
+                console.error('Error fetching data:', error);
+            });
+
+
+    </script>
+</body>
+
+</html>
