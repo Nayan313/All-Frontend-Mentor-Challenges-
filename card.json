@@ -19,5 +19,40 @@
     "link": "social-links-profile-main/index.html",
     "img": "social-links-profile-main/design/desktop-preview.jpg",
     "language": "<p class='html'>HTML5</p><p class='css'>CSS3</p>"
+  },
+{
+    "index": 3,
+    "name": "ecommerce-product-page-main",
+    "link": "ecommerce-product-page-main/index.html",
+    "img": "ecommerce-product-page-main/design/desktop-preview.jpg",
+    "language": "<p class='html'>HTML5</p><p class='css'>CSS3</p>"
+  },
+{
+    "index": 4,
+    "name": "blog-preview-card-main",
+    "link": "blog-preview-card-main/index.html",
+    "img": "blog-preview-card-main/design/desktop-preview.jpg",
+    "language": "<p class='html'>HTML5</p><p class='css'>CSS3</p>"
+  },
+{
+    "index": 5,
+    "name": "nft-preview-card-component-main",
+    "link": "nft-preview-card-component-main/index.html",
+    "img": "nft-preview-card-component-main/design/desktop-preview.jpg",
+    "language": "<p class='html'>HTML5</p><p class='css'>CSS3</p>"
+  },
+{
+    "index": 6,
+    "name": "qr-code-component-main",
+    "link": "qr-code-component-main/index.html",
+    "img": "qr-code-component-main/design/desktop-preview.jpg",
+    "language": "<p class='html'>HTML5</p><p class='css'>CSS3</p>"
+  },
+{
+    "index": 7,
+    "name": "3-column-preview-card-component-main",
+    "link": "3-column-preview-card-component-main/index.html",
+    "img": "3-column-preview-card-component-main/design/desktop-preview.jpg",
+    "language": "<p class='html'>HTML5</p><p class='css'>CSS3</p>"
   }
 ]

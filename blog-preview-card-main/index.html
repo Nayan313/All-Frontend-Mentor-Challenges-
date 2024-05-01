@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Blog preview card</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    :root{
+      --yellow: hsl(47, 88%, 63%);
+      --black: hsl(0, 0%, 7%);
+    }
+    *{
+      margin:0;
+      padding:0;
+      box-sizing: border-box;
+      font-size: 16px;
+      font-family: "Figtree", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: weight;
+      font-style: normal;
+    }
+    body{
+      background:var(--yellow);
+     overflow-x: hidden;
+      width: 100vw;
+      height: 100vh;
+    }
+    .attribution {
+    font-size: 16px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.attribution a {
+    color: #fff;
+    text-decoration: none;
+}
+.attribution a:hover{
+  color: blueviolet;
+}
+
+    main{
+      position: relative;
+      background: #fff;
+      width: 100%;
+      max-width: 385px;
+      min-width: 327px;
+      margin: 70px auto;
+      height: 100%;
+      max-height: 522px;
+      border-radius:20px;
+      padding:24px;
+      display: flex;
+      flex-direction: column;
+      box-shadow: 8px 8px 0px var(--black);
+      border:1px solid var(--black);
+    }
+    .image__main{
+      width: 100%;
+      height: 100%;
+      border-radius:10px;
+    }
+    .content_container{
+      margin-top:24px;
+      display: flex;
+      flex-direction: column;
+      gap:12px;
+    }
+    .category__container{
+      background: var(--yellow);
+      font-weight: 800;
+      align-self: start;
+      padding:4px 12px;
+      font-size: 1rem;
+      border-radius: 4px;
+    } 
+    .date__container{
+      font-size: 1rem;
+      font-weight: 500;
+    }
+    .title__container{
+      font-weight:800;
+      font-size: 1.4rem;
+    }
+    .title__container:hover{
+      color:var(--yellow);
+      cursor: pointer;
+    }
+    .description__container{
+      color:hsl(0, 0%, 50%);
+      font-weight: 500;
+    }
+    .avatar__container{
+      position: absolute;
+      bottom:24px;
+      display: flex;
+      align-items: center;
+      gap:12px;
+    }
+    .avatar__image{
+      width: 32px;
+      height: 32px;
+    }
+    .avatar__name{
+      font-weight: 800;
+    }
+
+    @media only screen and (max-width: 375px) {
+  body {
+      padding:0 20px;
+  }
+}
+  </style>
+</head>
+<body>
+  <main>
+    <picture class="image__container">
+      <img class="image__main" src="assets/images/illustration-article.svg" alt="illistrator image">
+    </picture>
+    <div class="content_container">
+      <p class="category__container">
+        Learning
+      </p>
+      <p class="date__container">
+        Published 21 Dec 2023
+      </p>
+      <h1 class="title__container">
+        HTML & CSS foundations
+      </h1>
+      <p class="description__container">These languages are the backbone of every website, defining structure, content, and presentation.</p>
+    </div>
+    <section class="avatar__container">
+      <img class="avatar__image" src="assets/images/image-avatar.webp" alt="Photo of Greg Hooper">
+      <p class="avatar__name">Greg Hooper</p>
+    </section>
+  </main><br>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://github.com/Nayan313" title="Hi Everyone 👋">Nayan Sukhadiya</a>.<br>
+      visit all Challenge Solution by <a href="../index.html">Frontend Mentor</a>
+    </div>
+</body>
+</html>
